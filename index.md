@@ -2,10 +2,6 @@
 layout: home
 mathjax: true
 ---
-<script type="text/javascript"> 
-  MathJax.Hub.Queue(["Typeset",MathJax.Hub]); 
-  MathJax.Hub.Typeset();
-</script>
 
 Make Jelly site have a GitBook look!
 $$a = 1$$
