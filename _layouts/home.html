@@ -1,9 +1,8 @@
 <!DOCTYPE HTML>
 <html lang="en" >
     <head>
-
+        
         {%- include head.html -%}
-        {%- include mathjax.html -%}
 
         {% assign reversed_posts = site.posts | reverse %}
 
@@ -34,6 +33,7 @@
                 gitbook.page.hasChanged({%- include metadata-home.json.tpl -%});
             });
             </script>
+
         </div>
 
         {%- include footer.html -%}

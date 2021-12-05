@@ -2,7 +2,7 @@
 <html lang="en" >
     <head>
         {%- include head.html -%}
-
+        
         {% if page.previous %}
             <link rel="prev" href="{{site.baseurl}}{{page.previous.url}}" />
         {% else %}
@@ -45,6 +45,7 @@
                 gitbook.page.hasChanged({%- include metadata-post.json.tpl -%});
             });
             </script>
+
         </div>
 
         {%- include footer.html -%}
