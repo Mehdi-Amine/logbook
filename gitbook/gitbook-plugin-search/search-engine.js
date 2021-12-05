@@ -2,20 +2,6 @@ require([
     'gitbook',
     'jquery'
 ], function(gitbook, $) {
-    //////////////////
-        window.addEventListener('load', function (event) {
-        MathJax.Hub.Config({
-          tex2jax: {
-            inlineMath: [ ['$','$'], ["\\(","\\)"] ],
-            processEscapes: true}
-        });
-
-        gitbook.events.bind("page.change", function() {
-          MathJax.Hub.Typeset()
-        });
-      });
-    /////////////////
-    
     // Global search objects
     var engine      = null;
     var initialized = false;
