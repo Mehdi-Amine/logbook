@@ -8,7 +8,7 @@ exclude_from_search: true
 mathjax: true
 ---
 
-<script type="text/javascript"> MathJax.Hub.Queue(["Typeset",MathJax.Hub]); </script>
+{%- include mathjax.html -%}
 
 <form action="{{ page.url | relative_url }}">
     <div class="tipue_search_left">
