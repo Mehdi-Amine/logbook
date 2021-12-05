@@ -5,7 +5,9 @@ require([
     //////////////////
         window.addEventListener('load', function (event) {
         MathJax.Hub.Config({
-          tex2jax: {}
+          tex2jax: {
+            inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+            processEscapes: true}
         });
 
         gitbook.events.bind("page.change", function() {
