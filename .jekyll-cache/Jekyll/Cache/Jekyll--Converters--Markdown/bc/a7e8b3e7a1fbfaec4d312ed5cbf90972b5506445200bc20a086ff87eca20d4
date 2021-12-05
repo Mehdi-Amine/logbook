@@ -1,4 +1,4 @@
-I"Ę5<script type="text/javascript"> MathJax.Hub.Queue(["Typeset",MathJax.Hub]); </script>
+I"ݘ5<script type="text/javascript"> MathJax.Hub.Queue(["Typeset",MathJax.Hub]); </script>
 
 <h1 id="perceptron-overview">Perceptron: Overview</h1>
 <hr />
@@ -197,10 +197,8 @@
 Optimized Parameters:
 	Bias: [[0.0001685]]
 	Weights: [[1.0000055  0.49999948]]
--------------------------------------------------------------
+------------------------------------------------------------- --- ---&lt;html&gt;
 </code></pre></div></div>
-
-<html>
 <head><meta charset="utf-8" /></head>
 <body>
     <div>
@@ -230,5 +228,5 @@ Optimized Parameters:
             </script>
         </div>
 </body>
-</html>
+<p>&lt;/html&gt;</p>
 :ET
