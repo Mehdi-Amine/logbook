@@ -209,6 +209,5 @@ perceptron.sgd(training_data=training_data, mini_batch_size=10, epochs=100, eta=
     	Bias: [[0.0001685]]
     	Weights: [[1.0000055  0.49999948]]
     -------------------------------------------------------------
----
----
-{%- include sgd-scalings.html -%}
+
+{% include sgd-scalings.html %}
