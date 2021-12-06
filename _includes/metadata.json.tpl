@@ -23,7 +23,7 @@
             "search": {},
             "sharing": {
                 "all": ["facebook", "google", "twitter", "weibo", "instapaper"],
-                "facebook": true,
+                "facebook": false,
                 "google": false,
                 "instapaper": false,
                 "twitter": true,
@@ -43,7 +43,7 @@
             }
         },
         "theme": "default",
-        "author": "Tao He",
+        "author": "Mehdi Amine",
         "pdf": {
             "pageNumbers": true,
             "fontSize": 12,
