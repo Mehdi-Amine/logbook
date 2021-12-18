@@ -2,6 +2,7 @@
 layout: post
 title: Dismantling Neural Networks to Understand the Inner Workings with Math and Pytorch
 subtitle: Simplified math with examples and code to shed light inside black boxes
+author: Mehdi Amine
 mathjax: True
 ---
 
