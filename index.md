@@ -3,6 +3,6 @@ layout: home
 mathjax: true
 ---
 
-“Carving out a space for yourself online, somewhere where you can express yourself and share your work, is still one of the best possible investments you can make with your time.”
+“The impulse to keep to yourself what you have learned is not only shameful, it is destructive. Anything you do not give freely and abundantly becomes lost to you. You open your safe and find ashes.”
 
-— Andy Baio
+<center>—Annie Dillard<\center>
