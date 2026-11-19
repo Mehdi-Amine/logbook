@@ -1,65 +1,15 @@
-# Jekyll GitBook
+# Logbook
 
-Make Jelly site have a GitBook look!
+Long-form technical writing by Mehdi Amine, published at **[mehdi-amine.github.io/logbook](https://mehdi-amine.github.io/logbook/)**.
 
-## Demo
+## Posts
 
-Live demo on Github Pages: [https://sighingnow.github.io/jekyll-gitbook](https://sighingnow.github.io/jekyll-gitbook)
+- **[Segmentation of Dental X-Rays with Mask R-CNNs](https://mehdi-amine.github.io/logbook/2021-12-12-dental.html)** (2021): the methods behind a deep-learning system for dental X-ray diagnosis, built from annotation strategy to production for a large dental practice in France.
+- **[Dismantling Neural Networks to Understand the Inner Workings with Math and PyTorch](https://mehdi-amine.github.io/logbook/2021-12-02-dismantlingnns.html)** (2021): forward pass, loss and gradients worked by hand, then checked against PyTorch autograd.
+- **[Perceptrons](https://mehdi-amine.github.io/logbook/2020-04-04-perceptrons.html)** (2020): the perceptron's structure and a full implementation from scratch.
 
-[![Jekyll Themes](https://img.shields.io/badge/featured%20on-JekyllThemes-red.svg)](https://jekyll-themes.com/jekyll-gitbook/)
+More articles on [Towards Data Science](https://towardsdatascience.com/dismantling-neural-networks-to-understand-the-inner-workings-with-math-and-pytorch-beac8760b595).
 
-## Why Jekyll with GitBook
+## Site
 
-GitBook is an amazing frontend style to present and organize contents (such as book chapters
-and blogs) on Web. The typical to deploy GitBook at [Github Pages][1]
-is building HTML files locally and then push to Github repository, usually to the `gh-pages`
-branch. It's quite annoying to repeat such workload and make it hard for people do version
-control via git for when there are generated HTML files to be staged in and out.
-
-This theme takes style definition out of generated GitBook site and provided the template
-for Jekyll to rendering markdown documents to HTML, thus the whole site can be deployed
-to [Github Pages][1] without generating and uploading HTML bundle every time when there are
-changes to the original repo.
-
-## How to Get Started
-
-This theme can be used just as other [Jekyll themes][1].
-
-[Fork][3] this repository and add your markdown posts to the `_posts` folder.
-
-### Deploy Locally with Jekyll Serve
-
-This theme can be ran locally using Ruby and Gemfiles.
-
-[Testing your GitHub Pages site locally with Jekyll](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll) - GitHub
-
-## Full-text search
-
-The jekyll-gitbook theme support a "Search" page that enables visitors to search contents
-from the whole site. The search functionality is powered by [jekyll-tipue-search][5] can you
-can try it from:
-
-[https://sighingnow.github.io/jekyll-gitbook/search/?q=generated](https://sighingnow.github.io/jekyll-gitbook/search/?q=generated)
-
-## How to generate TOC
-
-The jekyll-gitbook theme leverages [jekyll-toc][4] to generate the *Contents* for the page.
-The TOC feature is not enabled by default. To use the TOC feature, modify the TOC
-configuration in `_config.yml`:
-
-```yaml
-toc:
-    enabled: true
-```
-
-## License
-
-This work is open sourced under the Apache License, Version 2.0.
-
-Copyright 2019 Tao He.
-
-[1]: https://pages.github.com
-[2]: https://pages.github.com/themes
-[3]: https://github.com/sighingnow/jekyll-gitbook/fork
-[4]: https://github.com/allejo/jekyll-toc
-[5]: https://github.com/jekylltools/jekyll-tipue-search
+Built with Jekyll and the [jekyll-gitbook](https://github.com/sighingnow/jekyll-gitbook) theme (MIT licence, see `LICENSE`), served by GitHub Pages. Posts live in `_posts/`.
